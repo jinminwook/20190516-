@@ -11,7 +11,7 @@ public class RemoteControllerMain {
 		rc.turnOn();
 		rc.turnOff();
 		rc.setVolume(5);
-		//rc에 Audio 객체를 대입해서 Audio의 각 메소드 호출
+		//rc에 Audio 객체를 대 입해서 Audio의 각 메소드 호출
 		rc=new Audio();
 		rc.turnOn();
 		rc.turnOff();
